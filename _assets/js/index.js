@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import lightbox from 'lightbox2';
+import 'bootstrap';
 
 function component() {
   var element = document.createElement('div');
@@ -8,4 +8,3 @@ function component() {
 }
 
 document.body.appendChild(component());
-console.log(lightbox);
