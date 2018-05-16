@@ -84,6 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function component() {
   var element = document.createElement('div');
+  element.classList.add("alert", "alert-info", "m-3");
   element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' ');
   return element;
 }
