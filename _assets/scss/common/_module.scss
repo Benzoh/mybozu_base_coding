@@ -4,3 +4,19 @@
   color: #fff;
   background-color: #222;
 }
+
+.m_status-items {
+  .badge {
+    padding: 0.4em 0.6em;
+  }
+}
+
+.m_timer {
+  &__num {
+    font-size: 2rem;
+  }
+
+  &__label {
+    font-size: 0.6rem;
+  }
+}

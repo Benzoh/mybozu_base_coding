@@ -8951,3 +8951,15 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
   background-color: #222;
 }
+
+.m_status-items .badge {
+  padding: 0.4em 0.6em;
+}
+
+.m_timer__num {
+  font-size: 2rem;
+}
+
+.m_timer__label {
+  font-size: 0.6rem;
+}

@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import 'bootstrap';
+import './modules/bootstrap';
 
 function component() {
   var element = document.createElement('div');

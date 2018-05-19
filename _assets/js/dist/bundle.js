@@ -79,6 +79,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _modules_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
+/* harmony import */ var _modules_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -34080,6 +34083,16 @@ Popper.Defaults = Defaults;
 //# sourceMappingURL=popper.js.map
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)))
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(function () {
+  console.log('bootstrap.js');
+  $('[data-toggle="tooltip"]').tooltip()
+})
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(5)))
 
 /***/ })
 /******/ ]);
