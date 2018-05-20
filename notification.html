@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard | Mybozu</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./_assets/css/style.css">
+</head>
+<body>
+  <header class="c_header mb-3">
+    <nav class="c_navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><span class="border border-white px-3 py-2">D</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item text-white">
+            Pman: xxxxxx | 表示中のプロジェクト名を表示
+          </li>
+        </ul>
+        <div class="m_status-items">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item text-danger ml-3">
+              <span class="badge badge-danger">標準作業が3つ完了していません</span>
+            </li>
+            <li class="nav-item text-white ml-3">
+              未完数：<span class="badge badge-light">10</span>
+            </li>
+            <li class="nav-item text-white ml-3">
+              納期：<span class="badge badge-light">2018/05/11</span>
+            </li>
+          </ul>
+        </div>
+        <div class="m_utilities ml-3">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item text-white ml-3">
+              <a class="text-white" href="#"><i class="fas fa-list-ul fa-lg"></i></a>
+            </li>
+            <li class="nav-item text-white ml-3">
+              <a class="js_notifications-btn text-white" href="#"><i class="far fa-bell fa-lg"></i></a>
+            </li>
+            <li class="nav-item text-white ml-3">
+              <a class="text-white" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-fluid c_main">
+    <div class="card-columns">
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">
+          <a class="text-white" data-toggle="collapse" href="#standard-operation" role="button" aria-expanded="false" aria-controls="standard-operation">
+            標準作業
+          </a>
+          <a class="float-right text-white" href="#"><i class="fas fa-plus"></i></a>
+        </div>
+        <div class="collapse show" id="standard-operation">
+          <div class="card-body">
+            <form class="was-validated">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                <label class="custom-control-label" for="customControlValidation1">hoge</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+              <div class="custom-control custom-checkbox mt-1">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation2" required>
+                <label class="custom-control-label" for="customControlValidation2">fuga</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+              <div class="custom-control custom-checkbox mt-1">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation3" required>
+                <label class="custom-control-label" for="customControlValidation3">piyo</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+              <div class="custom-control custom-checkbox mt-1">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation4" required>
+                <label class="custom-control-label" for="customControlValidation4">hoge</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+              <div class="custom-control custom-checkbox mt-1">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation5" required>
+                <label class="custom-control-label" for="customControlValidation5">fuga</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+              <div class="custom-control custom-checkbox mt-1">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation6" required>
+                <label class="custom-control-label" for="customControlValidation6">piyo</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">カレンダー</div>
+        <div class="card-body">
+          <h5 class="card-title">Dark card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">TASK<a class="float-right text-white" href="#"><i class="fas fa-plus"></i></a></div>
+        <div class="card-body">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" for="customCheck1">checkbox</label>
+              <span class="float-right">
+                <span style="font-size: 0.8rem;">00:00:00</span>
+                <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+              </span>
+            </div>
+            <div class="custom-control custom-checkbox mt-1">
+              <input type="checkbox" class="custom-control-input" id="customCheck2">
+              <label class="custom-control-label" for="customCheck2">checkbox</label>
+              <span class="float-right">
+                <span style="font-size: 0.8rem;">00:00:00</span>
+                <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+              </span>
+            </div>
+            <div class="custom-control custom-checkbox mt-1">
+              <input type="checkbox" class="custom-control-input" id="customCheck3">
+              <label class="custom-control-label" for="customCheck3">checkbox</label>
+              <span class="float-right">
+                <span style="font-size: 0.8rem;">00:00:00</span>
+                <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+              </span>
+            </div>
+            <div class="custom-control custom-checkbox mt-1">
+              <input type="checkbox" class="custom-control-input" id="customCheck4">
+              <label class="custom-control-label" for="customCheck4">checkbox</label>
+              <span class="float-right">
+                <span style="font-size: 0.8rem;">00:00:00</span>
+                <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+              </span>
+            </div>
+            <div class="custom-control custom-checkbox mt-1">
+              <input type="checkbox" class="custom-control-input" id="customCheck5">
+              <label class="custom-control-label" for="customCheck5">checkbox</label>
+              <span class="float-right">
+                <span style="font-size: 0.8rem;">00:00:00</span>
+                <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+              </span>
+            </div>
+            <div class="custom-control custom-checkbox mt-1">
+              <input type="checkbox" class="custom-control-input" id="customCheck6">
+              <label class="custom-control-label" for="customCheck6">checkbox</label>
+              <span class="float-right">
+                <span style="font-size: 0.8rem;">00:00:00</span>
+                <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+              </span>
+            </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">PROPOSAL<a class="float-right text-white" href="#"><i class="fas fa-plus"></i></a></div>
+        <div class="card-body">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck4">
+            <label class="custom-control-label" for="customCheck4">checkbox</label>
+            <span class="float-right">
+              <span style="font-size: 0.8rem;">00:00:00</span>
+              <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+            </span>
+          </div>
+          <div class="custom-control custom-checkbox mt-1">
+            <input type="checkbox" class="custom-control-input" id="customCheck5">
+            <label class="custom-control-label" for="customCheck5">checkbox</label>
+            <span class="float-right">
+              <span style="font-size: 0.8rem;">00:00:00</span>
+              <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+            </span>
+          </div>
+          <div class="custom-control custom-checkbox mt-1">
+            <input type="checkbox" class="custom-control-input" id="customCheck6">
+            <label class="custom-control-label" for="customCheck6">checkbox</label>
+            <span class="float-right">
+              <span style="font-size: 0.8rem;">00:00:00</span>
+              <a href="#" class="text-dark"><i class="fas fa-play-circle"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">作業時間<a class="float-right text-white" href="#"><i class="far fa-edit"></i></a></div>
+        <div class="card-body">
+          <p class="card-text">TOTAL <span class="float-right">18:13:00</span></p>
+          <div class="text-center">
+            <a href="#" class="btn btn-sm btn-info">ログを見る</a>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">MEMO<a class="float-right text-white" href="#"><i class="fas fa-plus"></i></a></div>
+        <div class="card-body">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h6 class="mb-1"><strong>見出し</strong></h6>
+              </div>
+              <p class="mb-1">色は匂へど散りぬるを、我が世たれぞ常ならむ。有為の奥山今日越えて、浅き夢見じ、酔ひもせず…</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <strong class="mb-1">見出し</strong>
+              </div>
+              <p class="mb-1">色は匂へど散りぬるを、我が世たれぞ常ならむ。有為の奥山今日越えて、浅き夢見じ、酔ひもせず…</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <strong class="mb-1">見出し</strong>
+              </div>
+              <p class="mb-1">色は匂へど散りぬるを、我が世たれぞ常ならむ。有為の奥山今日越えて、浅き夢見じ、酔ひもせず…</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">タイマー</div>
+        <div class="card-body">
+          <div class="m_timer">
+            <div class="row">
+              <div class="col">
+                  <div class="m_timer__btns w-75 mx-auto py-3 row justify-content-between">
+                    <div>
+                      <a href="#" class="text-dark" data-toggle="tooltip" data-placement="top" title="開始する"><i class="fas fa-play-circle fa-2x"></i></a>
+                    </div>
+                    <div>
+                      <a href="#" class="text-danger" data-toggle="tooltip" data-placement="top" title="停止する"><i class="fas fa-stop-circle fa-2x"></i></a>
+                    </div>
+                    <div>
+                      <a href="#" class="text-dark" data-toggle="tooltip" data-placement="top" title="初期化する"><i class="fas fa-undo-alt fa-2x"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col mr-3">
+                <div class="m_timer__num mx-auto row justify-content-around">
+                  <div>01</div>:<div>04</div>:<div>20</div>
+                </div>
+                <div class="m_timer__label row justify-content-around text-center">
+                  <div class="col">HOUR</div><div class="col">MIN</div><div class="col">SEC</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">ポモドーロタイマー<a class="float-right text-white" href="#">設定時間:80m</a></div>
+        <div class="card-body">
+          <div class="m_timer">
+            <div class="row">
+              <div class="col">
+                  <div class="m_timer__btns w-75 mx-auto py-3 row justify-content-between">
+                    <div>
+                      <a href="#" class="text-dark" data-toggle="tooltip" data-placement="top" title="開始する"><i class="fas fa-play-circle fa-2x"></i></a>
+                    </div>
+                    <div>
+                      <a href="#" class="text-danger" data-toggle="tooltip" data-placement="top" title="停止する"><i class="fas fa-stop-circle fa-2x"></i></a>
+                    </div>
+                    <div>
+                      <a href="#" class="text-dark" data-toggle="tooltip" data-placement="top" title="初期化する"><i class="fas fa-undo-alt fa-2x"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col mr-3">
+                <div class="m_timer__num mx-auto row justify-content-around">
+                  <div>01</div>:<div>04</div>:<div>20</div>
+                </div>
+                <div class="m_timer__label row justify-content-around text-center">
+                  <div class="col">HOUR</div><div class="col">MIN</div><div class="col">SEC</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">リマインダー<a class="float-right text-white" href="#"><i class="fas fa-plus"></i></a></div>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <div>いろはにほへとちりぬ<span class="badge badge-light">2018/05/09 18:13</span></div>
+            <div style="width: 36px;">
+              <input type="range" class="custom-range" id="customRange1" min="0" max="1" step="1" value="0">
+            </div>
+          </div>
+          <div class="d-flex justify-content-between mt-3">
+            <div>いろはにほへとちりぬいろはに...<span class="badge badge-light">2018/05/09 18:13</span></div>
+            <div style="width: 36px;">
+              <input type="range" class="custom-range" id="customRange1" min="0" max="1" step="1" value="1">
+            </div>
+          </div>
+          <div class="d-flex justify-content-between mt-3">
+            <div>いろはにほへとちりぬ<span class="badge badge-light">2018/05/09 18:13</span></div>
+            <div style="width: 36px;">
+              <input type="range" class="custom-range" id="customRange1" min="0" max="1" step="1" value="1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header text-white bg-dark">ファイル<a class="float-right text-white" href="#"><i class="fas fa-plus"></i></a></div>
+        <div class="card-body">
+          <div class="custom-file mb-3">
+            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">hoge.pdf</li>
+            <li class="list-group-item">fuga.md</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="m_notifications shadow px-3 close">
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">List group item heading</h5>
+          <small>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </small>
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">List group item heading</h5>
+          <small class="text-muted">
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </small>
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">List group item heading</h5>
+          <small class="text-muted">
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </small>
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+      </a>
+    </div>
+  </div>
+
+  <script src="./_assets/js/dist/bundle.js"></script>
+</body>
+</html>
