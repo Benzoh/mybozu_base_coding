@@ -20,3 +20,20 @@
     font-size: 0.6rem;
   }
 }
+
+.m_notifications {
+  width: 450px;
+  height: 100%;
+  position: fixed;
+  background: #f8f9fa;
+  right: 0px;
+  top: 0px;
+  padding-top: 72px;
+  transition: 0.3s all ease-in-out;
+  z-index: 1029;
+
+  &.close {
+    right: -450px;
+    transition: 0.3s all ease-in-out;
+  }
+}
