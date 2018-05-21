@@ -37,3 +37,16 @@
     transition: 0.3s all ease-in-out;
   }
 }
+
+.m_signin {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+  margin: auto;
+
+  &__guide-link {
+    a {
+      font-size: 0.8rem;
+    }
+  }
+}
